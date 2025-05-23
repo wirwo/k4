@@ -47,7 +47,7 @@ export default function Home() {
         </div>
       </div>
       
-      <div className="absolute bottom-10 flex flex-col items-center gap-4">
+      <div className="absolute bottom-5 sm:bottom-10 flex flex-col items-center gap-4">
         <div className="flex items-center gap-4">
           <span className="text-base">New York</span>
           <div className="w-[4px] h-[4px] rounded-full bg-white/25"></div>
