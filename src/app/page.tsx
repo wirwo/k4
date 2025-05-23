@@ -22,7 +22,7 @@ export default function Home() {
     }}
   />
 ))}
-      <div className="flex flex-col items-center gap-8 max-w-full">
+      <div className="flex flex-col items-center gap-8 max-w-full md:pb-10">
         <Image
           src="/k4-logo.svg"
           alt="K4 Logo"
@@ -70,7 +70,7 @@ export default function Home() {
           <div className="w-[4px] h-[4px] rounded-full bg-white/25"></div>
           <span className="text-base">Hong Kong</span>
         </div>
-        <div className="text-base text-[#9D9D9D]">K4 Trading, Inc</div>
+        <div className="text-base text-[#9D9D9D]">K4 Trading Inc.</div>
       </div>
     </div>
   );
