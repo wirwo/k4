@@ -5,8 +5,8 @@ import SuperstackLogo from "../../public/superstack.svg";
 
 export default function Home() {
   return (
-    <div className="relative flex flex-col items-center justify-center min-h-[100dvh] font-proxima overflow-hidden">
-      <div className="absolute top-0 left-0 right-0 h-[800px] bg-gradient-to-b from-[#0092FF]/5 sm:from-[#0092FF]/10 to-[#0092FF]/0 pointer-events-none -z-10" />
+    <div className="relative flex flex-col items-center justify-center min-h-[100dvh] font-proxima overflow-hidden bg-[#0C0C0D] -z-20">
+      <div className="absolute top-0 left-0 right-0 h-[800px] bg-gradient-to-b from-[#0B151E] sm:from-[#0B151E] to-[#0B151E]/0 pointer-events-none -z-10" />
       {[...Array(15)].map((_, i) => (
   <div
     key={i}
