@@ -36,7 +36,7 @@ export default function Home() {
           K4 is a proprietary technology and investment firm focused on cryptocurrencies
           </div>
           <div className="text-center text-xl whitespace-normal sm:whitespace-nowrap text-[#9D9D9D]">
-          Superstack, Supernova Reserach
+          Superstack, Supernova Research
           </div>
         </div>
         {/* <div className="flex flex-row gap-4 max-w-full px-4 flex-wrap justify-center">
