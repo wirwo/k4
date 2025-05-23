@@ -12,6 +12,9 @@ export default {
         background: "var(--background)",
         foreground: "var(--foreground)",
       },
+      fontFamily: {
+        proxima: ['var(--font-proxima-nova)'],
+      },
     },
   },
   plugins: [],
