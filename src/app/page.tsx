@@ -1,6 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
-import SupernovaLogo from "../../public/supernova.svg";
+import SupernovaLogo from "../../public/Supernova.svg";
 import SuperstackLogo from "../../public/superstack.svg";
 
 export default function Home() {
