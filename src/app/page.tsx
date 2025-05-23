@@ -5,7 +5,7 @@ import SuperstackLogo from "../../public/superstack.svg";
 
 export default function Home() {
   return (
-    <div className="relative flex flex-col items-center justify-center min-h-screen font-proxima">
+    <div className="relative flex flex-col items-center justify-center min-h-[100dvh] font-proxima overflow-hidden">
       <div className="absolute top-0 left-0 right-0 h-[800px] bg-gradient-to-b from-[#0092FF]/10 to-[#0092FF]/0 pointer-events-none" />
       <div className="flex flex-col items-center gap-8 max-w-full">
         <Image
