@@ -6,7 +6,22 @@ import SuperstackLogo from "../../public/superstack.svg";
 export default function Home() {
   return (
     <div className="relative flex flex-col items-center justify-center min-h-[100dvh] font-proxima overflow-hidden">
-      <div className="absolute top-0 left-0 right-0 h-[800px] bg-gradient-to-b from-[#0092FF]/10 to-[#0092FF]/0 pointer-events-none" />
+      <div className="absolute top-0 left-0 right-0 h-[800px] bg-gradient-to-b from-[#0092FF]/10 to-[#0092FF]/0 pointer-events-none -z-10" />
+      {[...Array(15)].map((_, i) => (
+  <div
+    key={i}
+    className="absolute animate-star"
+    style={{
+      top: `${Math.random() * 30}%`,
+      left: `${Math.random() * 90 + 5}%`, // Ensures stars don't start too close to edges
+      width: `${Math.random() * 3 + 1}px`,
+      height: `${Math.random() * 3 + 1}px`,
+      backgroundColor: 'rgba(255, 255, 255, 0.7)',
+      borderRadius: '50%',
+      animationDelay: `${-Math.random() * 20}s`, // Negative delay for immediate start at different positions
+    }}
+  />
+))}
       <div className="flex flex-col items-center gap-8 max-w-full">
         <Image
           src="/k4-logo.svg"

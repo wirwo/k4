@@ -14,6 +14,17 @@ module.exports = {
       fontFamily: {
         proxima: ['var(--font-proxima-nova)'],
       },
+      keyframes: {
+        float: {
+          '0%': { transform: 'translate(0, 0)' },
+          '33%': { transform: 'translate(25px, 25px)' },
+          '66%': { transform: 'translate(-25px, 40px)' },
+          '100%': { transform: 'translate(0, 0)' },
+        },
+      },
+      animation: {
+        'float': 'float 15s ease-in-out infinite',
+      },
     },
   },
   plugins: [],

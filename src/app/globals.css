@@ -19,3 +19,58 @@ body {
   background: var(--background);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+@keyframes twinkle {
+  0%, 100% {
+    opacity: 0.2;
+    transform: scale(0.8);
+  }
+  50% {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+@keyframes float {
+  0% {
+    transform: translateX(0px) translateY(0px);
+  }
+  25% {
+    transform: translateX(100px) translateY(50px);
+  }
+  50% {
+    transform: translateX(-100px) translateY(100px);
+  }
+  75% {
+    transform: translateX(50px) translateY(25px);
+  }
+  100% {
+    transform: translateX(0px) translateY(0px);
+  }
+}
+
+@keyframes twinkle {
+  0%, 100% {
+    opacity: 0.2;
+  }
+  50% {
+    opacity: 1;
+  }
+}
+
+.animate-star {
+  position: absolute;
+  animation: float 60s infinite ease-in-out, twinkle 2s infinite ease-in-out;
+}
+
+.animate-star:nth-child(2n) {
+  animation-duration: 55s, 3s;
+}
+
+.animate-star:nth-child(3n) {
+  animation-duration: 65s, 3s;
+}
+
+.animate-star:nth-child(5n) {
+  animation-duration: 75s, 3s;
+}
