@@ -6,7 +6,7 @@ import SuperstackLogo from "../../public/superstack.svg";
 export default function Home() {
   return (
     <div className="relative flex flex-col items-center justify-center min-h-[100dvh] font-proxima overflow-hidden">
-      <div className="absolute top-0 left-0 right-0 h-[800px] bg-gradient-to-b from-[#0092FF]/7 sm:from-[#0092FF]/10 to-[#0092FF]/0 pointer-events-none -z-10" />
+      <div className="absolute top-0 left-0 right-0 h-[800px] bg-gradient-to-b from-[#0092FF]/5 sm:from-[#0092FF]/10 to-[#0092FF]/0 pointer-events-none -z-10" />
       {[...Array(15)].map((_, i) => (
   <div
     key={i}
@@ -14,8 +14,8 @@ export default function Home() {
     style={{
       top: `${Math.random() * 30}%`,
       left: `${Math.random() * 90 + 5}%`, 
-      width: `${Math.random() * 3 + 1}px`,
-      height: `${Math.random() * 3 + 1}px`,
+      width: `2px`,
+      height: `2px`,
       backgroundColor: 'rgba(255, 255, 255, 0.3)',
       borderRadius: '50%',
       animationDelay: `${-Math.random() * 20}s`,
