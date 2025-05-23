@@ -32,7 +32,7 @@ export default function Home() {
       />
       <div className="flex flex-col items-center gap-8 max-w-full md:pb-10">
         <div className="px-4 gap-4 flex flex-col items-center">
-          <div className="text-center text-xl whitespace-normal sm:whitespace-nowrap text-white">
+          <div className="text-center text-2xl whitespace-normal sm:whitespace-nowrap text-white">
           K4 is a proprietary technology and investment firm focused on cryptocurrencies
           </div>
           <div className="text-center text-xl whitespace-normal sm:whitespace-nowrap text-[#9D9D9D]">
