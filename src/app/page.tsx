@@ -28,7 +28,7 @@ export default function Home() {
         width={70}
         height={70}
         priority
-        className="absolute sm:top-8 sm:left-8 top-8 left-1/2 -translate-x-1/2 sm:translate-x-0"
+        className="absolute left-6 sm:left-8 top-8"
       />
       <div className="flex flex-col items-center gap-8 max-w-full md:pb-10">
         <div className="px-4 gap-4 flex flex-col items-center">
