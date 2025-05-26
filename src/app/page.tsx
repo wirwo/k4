@@ -33,11 +33,11 @@ export default function Home() {
       <div className="flex flex-col items-center gap-8 max-w-full md:pb-10">
         <div className="px-4 gap-4 flex flex-col items-center">
           <div className="text-center text-xl md:text-2xl whitespace-normal sm:whitespace-nowrap text-white">
-          K4 is a proprietary technology and investment firm focused on cryptocurrencies
+          K4 is a proprietary trading firm focused on cryptocurrencies.
           </div>
-          <div className="text-center text-lg md:text-xl whitespace-normal sm:whitespace-nowrap text-[#9D9D9D]">
+          {/* <div className="text-center text-lg md:text-xl whitespace-normal sm:whitespace-nowrap text-[#9D9D9D]">
           Superstack, Supernova Research
-          </div>
+          </div> */}
         </div>
         {/* <div className="flex flex-row gap-4 max-w-full px-4 flex-wrap justify-center">
           <Link 
